@@ -1,0 +1,15 @@
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 160px;
+  padding-bottom: 148px;
+
+  display: flex;
+  gap: 0 32px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

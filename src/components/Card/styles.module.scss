@@ -1,0 +1,44 @@
+.container {
+  min-width: 256px;
+  height: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+
+  background-color: var(--gray-800);
+}
+
+.imageBg {
+  width: 100%;
+}
+
+.infos {
+  margin-top: calc(0px - 1.5rem - 12px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  strong {
+    margin-top: 1rem;
+    font-weight: bold;
+    line-height: 160%;
+    color: var(--white);
+  }
+
+  span {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+  }
+}
+
+.editProfile {
+  padding: 1.5rem 2rem 2rem;
+  margin-top: 1.5rem;
+
+  border-top: 1px solid var(--gray-700);
+
+  button {
+    width: 100%;
+  }
+}
