@@ -19,6 +19,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+@media (max-width: 780px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
 body {
   background-color: var(--gray-900);
 }
